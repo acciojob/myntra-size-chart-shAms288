@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+table, th, td{
+	border:1px solid black;
+	border-collapse: collapse;
+	width:500px;
+}
+thead,th{
+	text-align: start;
+	background-color: brown;
+	color: white;
+}
+tbody,td{
+	text-align: end;
+}
+td:first-child{
+	text-align:start;
+}
+
